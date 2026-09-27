@@ -1,9 +1,12 @@
-import LeftImageRightContent from "../ui/LeftImageRightContent";
-import Card from "../ui/Cards";
+import LeftImageRightContent from "../../../components/ui/LeftImageRightContent";
+import Card from "../../../components/ui/Cards";
+import Header from "../../../components/layouts/header";
 
-function Hero() {
+
+function HomePage() {
   return (
     <section className="hero" id="top">
+   <Header />
       <LeftImageRightContent
   imageSrc="/images/badges/trusted-store.png"
   imageAlt="Trusted Store badge preview"
@@ -31,4 +34,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default HomePage;

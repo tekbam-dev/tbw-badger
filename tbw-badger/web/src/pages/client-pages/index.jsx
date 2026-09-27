@@ -1,6 +1,6 @@
-import FeatureCard from '../components/ui/FeatureCard'
-import Hero from '../components/home/Hero'
-import Navigation from '../components/layouts/Navigation'
+import FeatureCard from '../../components/ui/FeatureCard'
+import Hero from '../../components/home/Hero'
+import Navigation from '../../components/layouts/Navigation'
 
 const features = [
   { title: 'Build trust', description: 'Display a clear badge that helps shoppers feel confident buying from your WooCommerce store.' },

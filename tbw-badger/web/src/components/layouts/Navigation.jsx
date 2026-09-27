@@ -3,9 +3,10 @@ function Navigation() {
     <header className="site-header">
       <a className="brand" href="#top" aria-label="TBW Badger home">TBW <span>Badger</span></a>
       <nav className="site-nav" aria-label="Main navigation">
-        <a href="#services">Services</a>
-        <a href="#documentation">Documentation</a>
-        <a href="#plugin">Plugin</a>
+        <a href="/services">Services</a>
+        <a href="/documentation">Documentation</a>
+        <a href="/plugin">Plugin</a>
+         <a href="/about">About</a>
       </nav>
       <div className="auth-actions">
         <a className="button button-secondary" href="#login">Log in</a>
