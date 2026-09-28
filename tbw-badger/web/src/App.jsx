@@ -1,5 +1,5 @@
 import { HomePage,ClientAccount,ClientDashboard,Service,About, } from './pages/client-pages/clientPagesImport';
-import Navigation from './components/layouts/Navigation';
+import Navigation from './components/template-parts/Navigation';
 
 import { Route,Routes } from 'react-router';
 import './App.css'

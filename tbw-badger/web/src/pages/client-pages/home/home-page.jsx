@@ -1,12 +1,14 @@
-import LeftImageRightContent from "../../../components/ui/LeftImageRightContent";
-import Card from "../../../components/ui/Cards";
-import Header from "../../../components/layouts/header";
+import LeftImageRightContent from "../../../components/template-parts/LeftImageRightContent";
+import Card from "../../../components/template-parts/Cards/Cards";
+import Header from "../../../components/template-parts/Header";
+import imageSrcHero from '../../../assets/hero.png';
 
 
 function HomePage() {
   return (
-    <section className="hero" id="top">
-   <Header />
+    <>
+      <Header />
+      <section className="hero" id="top">
       <LeftImageRightContent
   imageSrc="/images/badges/trusted-store.png"
   imageAlt="Trusted Store badge preview"
@@ -16,13 +18,14 @@ function HomePage() {
   ctaText="Explore badges"
   ctaLink="#badges"
 />
-
+<div className="cards-grid">
 <Card
-  imageSrc="/images/badges/trusted-store.png"
+  imageSrc={imageSrcHero}
   imageAlt="Trusted Store badge"
   title="Trusted Store"
   description="Show customers that your WooCommerce store meets your standards."
 />
+</div>
       <p className="eyebrow">BADGES FOR WOOCOMMERCE</p>
       <h1>Make your store feel more trustworthy.</h1>
       <p className="hero-description">Create, manage, and display trust badges for your WooCommerce store from one dashboard.</p>
@@ -30,7 +33,8 @@ function HomePage() {
         <a className="button button-primary" href="#register">Get started free</a>
         <a className="text-link" href="#documentation">View documentation <span aria-hidden="true">→</span></a>
       </div>
-    </section>
+      </section>
+    </>
   )
 }
 
