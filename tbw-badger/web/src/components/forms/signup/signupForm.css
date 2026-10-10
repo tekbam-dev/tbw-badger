@@ -1,0 +1,140 @@
+.signup-card {
+  background: #ffffff;
+  border: 1px solid #e5eaf2;
+  border-radius: 20px;
+  box-shadow: 0 24px 70px rgb(23 32 51 / 10%);
+  margin: 0 auto 56px;
+  max-width: 440px;
+  padding: 36px;
+  text-align: left;
+}
+
+.signup-card-heading {
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.signup-eyebrow {
+  color: #2563eb;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.signup-card-heading h2 {
+  color: #172033;
+  font-size: 1.8rem;
+  letter-spacing: -0.045em;
+  margin: 10px 0 8px;
+}
+
+.signup-card-heading p,
+.signup-note {
+  color: #64748b;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.signup-form {
+  display: grid;
+  gap: 18px;
+}
+
+.signup-field {
+  display: grid;
+  gap: 8px;
+}
+
+.signup-field label {
+  color: #344054;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.signup-field input:not([type="checkbox"]) {
+  background: #ffffff;
+  border: 1px solid #d5dce8;
+  border-radius: 9px;
+  color: #172033;
+  font: inherit;
+  min-height: 48px;
+  outline: none;
+  padding: 0 14px;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+  width: 100%;
+}
+
+.signup-field input:not([type="checkbox"])::placeholder {
+  color: #98a2b3;
+}
+
+.signup-field input:not([type="checkbox"]):focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgb(37 99 235 / 14%);
+}
+
+.signup-checkbox-field {
+  align-items: start;
+  display: flex;
+  gap: 10px;
+}
+
+.signup-checkbox-field input {
+  accent-color: #2563eb;
+  flex: 0 0 auto;
+  height: 17px;
+  margin: 2px 0 0;
+  width: 17px;
+}
+
+.signup-checkbox-field label {
+  color: #475467;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.signup-form button[type="submit"] {
+  background: #2563eb;
+  border: 0;
+  border-radius: 9px;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  min-height: 48px;
+  margin-top: 2px;
+  transition: background-color 160ms ease, transform 160ms ease;
+  width: 100%;
+}
+
+.signup-form button[type="submit"]:hover {
+  background: #1d4ed8;
+}
+
+.signup-form button[type="submit"]:active {
+  transform: translateY(1px);
+}
+
+.signup-form button[type="submit"]:focus-visible {
+  outline: 3px solid rgb(37 99 235 / 35%);
+  outline-offset: 3px;
+}
+
+.signup-note {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .signup-card {
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding: 26px 20px;
+  }
+
+  .signup-card-heading h2 {
+    font-size: 1.55rem;
+  }
+}

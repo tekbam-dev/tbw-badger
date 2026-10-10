@@ -2,6 +2,7 @@ import LeftImageRightContent from "../../../components/template-parts/LeftImageR
 import Card from "../../../components/template-parts/Cards/Cards";
 import Header from "../../../components/template-parts/Header";
 import imageSrcHero from '../../../assets/hero.png';
+import SignUpForm from "../../../components/forms/signinForm";
 
 
 function HomePage() {
@@ -9,6 +10,7 @@ function HomePage() {
     <>
       <Header />
       <section className="hero" id="top">
+        <SignUpForm />
       <LeftImageRightContent
   imageSrc="/images/badges/trusted-store.png"
   imageAlt="Trusted Store badge preview"

@@ -3,3 +3,6 @@ export {default as ImageElement} from './imageUI/image';
 export {default as  HeadingElement} from './textUI/heading-elements/heading';
 export {default as   SubHeadingElement} from './textUI/heading-elements/subheading';
 export {default as  ParagraphElement} from './textUI/paragraph-elements/paragraph';
+export {default as ButtonTypeSubmit} from './buttonsUI/buttonField';
+export {default as PasswordInputField} from './formsUI/formElements/passwordField';
+export {default as TextInputField} from './formsUI/formElements/textField';

@@ -1,4 +1,4 @@
-import { HomePage,ClientAccount,ClientDashboard,Service,About, } from './pages/client-pages/clientPagesImport';
+import { HomePage,ClientAccount,ClientDashboard,Service,About,SignUpPage } from './pages/client-pages/clientPagesImport';
 import Navigation from './components/template-parts/Navigation';
 
 import { Route,Routes } from 'react-router';
@@ -16,6 +16,7 @@ function App() {
   <Route path="/service" element={<Service />} />
    <Route path="/client/account" element={<ClientAccount />} />
   <Route path="/client/dashboard" element={<ClientDashboard />} />
+  <Route path="/signup" element={< SignUpPage />} />
 
 
   </Routes>
